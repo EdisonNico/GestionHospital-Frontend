@@ -1,16 +1,35 @@
-# React + Vite
+🏥 Gestión Hospitalaria - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+El proyecto GestionHospital-Frontend es una aplicación web desarrollada para la gestión de un sistema hospitalario. Su objetivo es facilitar la administración de usuarios, citas médicas y servicios hospitalarios mediante una interfaz moderna, rápida y fácil de usar.
 
-Currently, two official plugins are available:
+⚙️ Funcionamiento del sistema
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+La aplicación funciona como un frontend en React, el cual consume datos desde un backend (API REST). Permite a los usuarios autenticarse, navegar por el sistema y realizar operaciones relacionadas con la gestión hospitalaria.
 
-## React Compiler
+👤 Flujo general:
+El usuario accede a la aplicación.
+Inicia sesión desde la página de login.
+Accede al menú principal.
+Puede navegar entre módulos como:
+Reservar citas
+Ver citas programadas
+Consultar información del sistema
+📁 Estructura del proyecto
+src/
+│
+├── pages/
+│   ├── Home.jsx        # Página principal del sistema
+│   ├── Login.jsx       # Inicio de sesión de usuarios
+│   ├── Menu.jsx        # Menú principal de navegación
+│   ├── Reservar.jsx    # Módulo para reservar citas médicas
+│   └── Citas.jsx       # Listado de citas registradas
+│
+├── App.jsx            # Configuración de rutas principales
+├── main.jsx           # Punto de entrada de la aplicación
+└── styles.css         # Estilos globales del sistema
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💻 Tecnologías utilizadas
+⚛️ React (Vite)
+📄 JavaScript (JSX)
+🌐 React Router DOM
+🎨 CSS puro para estilos

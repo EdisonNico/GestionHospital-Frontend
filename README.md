@@ -1,21 +1,19 @@
 🏥 Gestión Hospitalaria - Frontend
-
 El proyecto GestionHospital-Frontend es una aplicación web desarrollada para la gestión de un sistema hospitalario. Su objetivo es facilitar la administración de usuarios, citas médicas y servicios hospitalarios mediante una interfaz moderna, rápida y fácil de usar.
 
 ⚙️ Funcionamiento del sistema
-
 La aplicación funciona como un frontend en React, el cual consume datos desde un backend (API REST). Permite a los usuarios autenticarse, navegar por el sistema y realizar operaciones relacionadas con la gestión hospitalaria.
 
 👤 Flujo general:
-El usuario accede a la aplicación.
-Inicia sesión desde la página de login.
-Accede al menú principal.
-Puede navegar entre módulos como:
+El usuario accede a la aplicación
+Inicia sesión desde la página de login
+Accede al menú principal
+Navega por los módulos disponibles:
 Reservar citas
 Ver citas programadas
-Consultar información del sistema
-📁 Estructura del proyecto
-src/
+Consultar información
+
+📁 src/
 │
 ├── pages/
 │   ├── Home.jsx        # Página principal del sistema
@@ -33,3 +31,6 @@ src/
 📄 JavaScript (JSX)
 🌐 React Router DOM
 🎨 CSS puro para estilos
+
+🎯 Resultado
+Una interfaz moderna para la gestión hospitalaria, enfocada en mejorar la organización de citas y la experiencia del usuario.
